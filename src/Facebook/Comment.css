@@ -1,0 +1,36 @@
+.comment {
+  width: 500px;
+  line-break: strict;
+}
+.comment__userimage > img {
+  height: 45px;
+  width: 45px;
+  border-radius: 50%;
+  object-fit: cover;
+  background-position: center;
+}
+.comment__layout {
+  display: flex;
+  color: #111;
+  flex-direction: column;
+  background-color: lightgray;
+  margin-left: 10px;
+  border-radius: 20px;
+  width: fit-content;
+  padding: 7px;
+  text-align: left;
+  max-width: 500px;
+}
+.comment__layout > h2 {
+  font-size: 12px;
+}
+.comment__layout > span {
+  font-size: 14px;
+  overflow-wrap: break-word;
+  max-inline-size: 400px;
+}
+.comment__container {
+  display: flex;
+  align-items: center;
+  width: 500px;
+}

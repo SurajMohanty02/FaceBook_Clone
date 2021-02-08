@@ -1,0 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Open Sans", sans-serif;
+  background-color: rgba(212, 206, 206);
+  min-width: 450px;
+}
+.App {
+  background-color: rgba(212, 206, 206);
+}
+.facebook {
+  display: flex;
+}

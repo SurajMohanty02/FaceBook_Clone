@@ -1,0 +1,35 @@
+.post {
+  width: 50%;
+  margin-left: 25%;
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+}
+@media screen and (max-width: 1025px) {
+  .post {
+    width: 100%;
+
+    margin-left: 14%;
+  }
+}
+@media screen and (max-width: 800px) {
+  .post {
+    width: 100%;
+
+    margin-left: 13%;
+  }
+}
+@media screen and (max-width: 550px) {
+  .post {
+    width: 100%;
+    margin-left: 2.5%;
+    margin-right: 100px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .post {
+    width: 100%;
+    margin-left: 12%;
+    margin-right: 100px;
+  }
+}

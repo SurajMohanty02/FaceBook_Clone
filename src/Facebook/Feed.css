@@ -1,0 +1,230 @@
+.feed {
+  width: 80%;
+  margin: auto;
+  background-color: white;
+  border-radius: 10px;
+  padding: 15px 15px 10px 15px;
+  margin-bottom: 10px;
+}
+.feed__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.feed__headerimage > img {
+  height: 45px;
+  width: 45px;
+  border-radius: 50%;
+  object-fit: cover;
+  background-position: center;
+  display: flex;
+  margin-right: 20px;
+  cursor: pointer;
+}
+.feed__headername {
+  font-size: 15px;
+  color: #111;
+  font-weight: 600;
+  cursor: pointer;
+}
+.header__name:hover {
+  text-decoration: underline;
+}
+.feed__headername > h2 {
+  font-weight: 400;
+  cursor: pointer;
+}
+.feed__headername > h2:hover {
+  text-decoration: underline;
+}
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.more__icon {
+  font-size: 25px;
+}
+#icon__btn {
+  margin-right: 10px;
+}
+.feed__text {
+  font-size: 15px;
+  margin-top: 10px;
+  color: #111;
+  margin-bottom: 10px;
+  overflow-wrap: break-word;
+}
+.feed__altertext {
+  font-size: 15px;
+  margin-top: 10px;
+  color: #111;
+  margin-bottom: 20px;
+  overflow-wrap: break-word;
+}
+
+.feed__image > img {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  cursor: pointer;
+}
+.feed__line {
+  margin: 5px 0px 5px 0px;
+  padding: 0;
+}
+.feed__bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 25px;
+  color: gray;
+}
+.feed__like {
+  display: flex;
+  align-items: center;
+  border: 1px solid white;
+  padding-left: 25px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  width: 130px;
+  cursor: pointer;
+}
+.feed__like:hover {
+  border: 1px solid rgb(216, 208, 208);
+  background-color: rgb(216, 208, 208);
+  border-radius: 4px;
+}
+
+.feed__like > h2 {
+  margin-left: 5px;
+  font-size: 15px;
+}
+#comment {
+  font-size: 23px;
+}
+.feed__comment {
+  display: flex;
+  align-items: center;
+  border: 1px solid white;
+  padding-left: 10px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  cursor: pointer;
+  width: 130px;
+}
+.feed__comment:hover {
+  border: 1px solid rgb(216, 208, 208);
+  background-color: rgb(216, 208, 208);
+  border-radius: 4px;
+}
+.feed__comment > h2 {
+  margin-left: 5px;
+  font-size: 15px;
+}
+.feed__share {
+  display: flex;
+  align-items: center;
+  border: 1px solid white;
+  padding-left: 10px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  cursor: pointer;
+  width: 130px;
+}
+.feed__share:hover {
+  border: 1px solid rgb(216, 208, 208);
+  background-color: rgb(216, 208, 208);
+  border-radius: 4px;
+}
+.feed__share > h2 {
+  margin-left: 5px;
+  font-size: 15px;
+}
+.footer {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+.footer__header {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+.footer__image {
+  display: flex;
+  align-items: center;
+}
+.footer__image > img {
+  height: 45px;
+  width: 45px;
+  border-radius: 50%;
+  object-fit: cover;
+  background-position: center;
+}
+.footer__input {
+  display: flex;
+
+  align-items: center;
+  margin-left: 10px;
+  background-color: rgb(233, 222, 222);
+  border: 1px solid rgb(233, 222, 222);
+  padding: 8px 20px;
+  width: 80%;
+  border-radius: 30px;
+}
+.footer__input > input {
+  border: none;
+  width: 100%;
+  outline: none;
+  background-color: rgb(233, 222, 222);
+}
+.footer__wrap {
+  display: flex;
+  flex-direction: column;
+
+  width: 100%;
+}
+.comment__text {
+  font-size: 18px;
+  margin-left: 10px;
+}
+.liketrue {
+  color: rgb(10, 142, 194);
+}
+.like__counter {
+  font-size: 15px;
+  margin-left: 10px;
+}
+.delete-false {
+  display: none;
+}
+
+.delete-true {
+  margin: auto;
+  width: 80%;
+}
+.delete__post {
+  right: 500px;
+  position: absolute;
+  background-color: rgb(0, 0, 0);
+  color: rgb(240, 232, 232);
+  width: 120px;
+  height: 100px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  overflow: hidden;
+}
+.delete__this {
+  font-size: 20px;
+}
+.delete__this:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+.comment__text {
+  margin-top: 10px;
+}

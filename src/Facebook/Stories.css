@@ -1,0 +1,52 @@
+.story > .story__avtar {
+  background: transparent;
+  border: 5px solid rgb(129, 66, 201);
+
+  margin: 10px 0px 10px 10px;
+}
+.story > .story__avtar:hover {
+  border-color: rgb(49, 148, 140);
+}
+@media screen and (max-width: 500px) {
+  .story {
+    width: 500px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .story {
+    width: 150px;
+  }
+}
+.story {
+  height: 200px;
+  width: 120px;
+  margin-right: 10px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  border-radius: 10px;
+  box-shadow: 0px 5px 17px -7px rgba(0, 0, 0, 0.75);
+  transition: transform 250ms ease-in;
+
+  cursor: pointer;
+  font-size: 10px;
+}
+.cont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.story:hover {
+  transform: scale(1.07);
+}
+.story > h2 {
+  color: white;
+  bottom: 20px;
+  left: 20px;
+
+  position: absolute;
+}
+.story > h2:hover {
+  color: black;
+}

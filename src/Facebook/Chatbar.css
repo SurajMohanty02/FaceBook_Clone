@@ -1,0 +1,51 @@
+.chatbar {
+  width: 23%;
+  margin: 95px auto;
+  position: fixed;
+  top: -10px;
+  right: 0px;
+  bottom: -80px !important;
+  overflow-y: hidden;
+}
+.chatbar:hover {
+  overflow-y: scroll;
+}
+
+.chatbar__image > img {
+  width: 45px;
+  height: 45px;
+  object-fit: cover;
+  background-position: center;
+  border-radius: 50%;
+  display: flex;
+  margin-right: 10px;
+}
+@media screen and (max-width: 1030px) {
+  .chatbar {
+    display: none;
+  }
+}
+.chatbar__content {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  margin: 0px 10px 6px 0px;
+  padding: 10px;
+}
+.chatbar__content > h2 {
+  color: rgb(88, 85, 85);
+}
+.chatbar__content:hover {
+  color: rgb(88, 85, 85);
+  background-color: rgb(236, 143, 55);
+  border-radius: 10px;
+}
+.green {
+  height: 10px;
+  width: 10px;
+  background-color: rgb(46, 138, 46);
+  color: green;
+  margin: 28px 0px 0px 35px;
+  position: absolute;
+  border-radius: 50%;
+}
